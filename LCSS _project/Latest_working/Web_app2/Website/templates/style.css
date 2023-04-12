@@ -1,0 +1,82 @@
+
+html{
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.btn{
+	font-weight: 700;
+	box-shadow: 1px 1px 1px gold;
+	background-color: gray;
+}
+
+.btn-primary:hover{
+	background-color: purple;
+	border-color: gold;
+	color: gold;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
+.h2-seo{
+	color: gold;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.buffer{
+	height: 8rem;
+}
+.title{
+	color: gray;
+}
+.image2{
+	height: 240px;
+	width: 320px;
+	margin:10px;
+	transition: all 1s;
+}
+.image3{
+	height: 500px;
+	width: 500px;
+}
+.image2:hover{
+	transform: scale(1.1);
+}
+.col-md-4{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.row1{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+h1 {
+  text-shadow: 2px 2px blue;
+}
+h3 {
+	text-shadow: 1px 1px black;
+}
+/*.buffer{
+	height: 20rem;
+}*/
+
+/*.subscribe-line.subscribe-line-image:after{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height:100%;
+	display: block;
+	left: 0;
+	top:0;
+	content:"";
+	background-color: rgba(0,0,0,0.66);
+}*/

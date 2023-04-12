@@ -1,0 +1,37 @@
+{% block
+  content %}   
+      <form action = {{ hospital_id }} method="POST">
+        <h3 align="center">User Information</h3>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Enter Name"
+          />
+
+          <label for="ID">ID</label>
+          <input
+            type="number"
+            class="form-control"
+            id="ID"
+            name="ID"
+            placeholder="Enter ID"
+          />
+
+          <label for="email">email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Enter Email ID"
+          />
+
+  </div>
+  <br />
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}

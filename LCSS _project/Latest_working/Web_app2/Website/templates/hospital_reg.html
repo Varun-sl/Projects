@@ -1,0 +1,37 @@
+{% block
+    content %}
+    <form method="POST">
+      <h3 align="center">Hospital Bed Management System</h3>
+      <div class="form-group">
+        <label for="hospital_name">Hospital Name</label>
+        <input
+          type="hospital_name"
+          class="form-control"
+          id="hospital_name"
+          name="hospital_name"
+          placeholder="Enter Hospital Name"
+        />
+
+        <label for="location">Location</label>
+        <input
+          type="location"
+          class="form-control"
+          id="location"
+          name="location"
+          placeholder="Enter Location"
+        />
+
+        <label for="no_of_beds">No. of beds</label>
+        <input
+          type="no_of_beds"
+          class="form-control"
+          id="no_of_beds"
+          name="no_of_beds"
+          placeholder="Enter No. of beds"
+        />
+
+      </div>
+      <br />
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    {% endblock %}
